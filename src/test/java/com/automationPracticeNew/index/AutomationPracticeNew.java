@@ -28,7 +28,9 @@ public class AutomationPracticeNew extends BaseClass{
 			exReports.attachReporter(htmlReporter);
 			test = exReports.createTest("Automation Practice");
 			
-			test.log(Status.INFO, "Launch the Browser");
+			test.log(Status.INFO, "Launch the Browser test");
+			System.out.println("test 11");
+			System.out.println("test 12");
 			driver = getBrowser("chrome");
 			test.log(Status.INFO, "Launch the URL");
 			getURL("http://automationpractice.com/index.php");
